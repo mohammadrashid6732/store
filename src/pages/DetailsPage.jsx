@@ -6,6 +6,8 @@ import { FaArrowLeft } from "react-icons/fa";
 import { IoMdPricetag } from "react-icons/io";
 import { SiOpenproject } from "react-icons/si";
 
+import styles from "../styles/DetailsPage.module.css";
+
 function DetailsPage() {
   const { id } = useParams();
   const productDetails = useProductDetails(+id);
@@ -14,16 +16,16 @@ function DetailsPage() {
   if (!productDetails) return <Loader />;
 
   return (
-    <div>
+    <div className={styles.container}>
       <img src={image} alt={title} />
-      <div>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <p>
+      <div className={styles.information}>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
+        <p className={styles.category}>
           <SiOpenproject />
           {category}
         </p>
-        <div>
+        <div className={styles.price}>
           <span>
             <IoMdPricetag />
             {price} $
