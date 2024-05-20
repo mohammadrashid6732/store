@@ -1,0 +1,19 @@
+{
+    "editor.fontSize":  30,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": false,
+    "editor.fontFamily": "Fira Code",
+
+"workbench.colorCustomizations": {
+  "tab.activeBackground": "#1e1e1e",
+  "activityBar.background": "#151515",
+  "sideBar.background": "#080808",
+  "tab.activeBorder": "#fffffe",
+  "editor.background" : "#131313",
+  "terminal.background": "#0b0b0b",
+  }
+    
+}
+
+   
