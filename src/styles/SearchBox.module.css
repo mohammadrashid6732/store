@@ -1,0 +1,21 @@
+.search input {
+  width: 300px;
+  padding: 10px;
+  border: 2px dashed rgb(255, 103, 38);
+  border-radius: 20px;
+  margin: 0 10px 50px;
+  outline: none;
+  font-size: 1rem;
+}
+.search button {
+  font-size: 1rem;
+  color: rgb(255, 103, 38);
+  background-color: #fff;
+  border: 2px dashed rgb(255, 103, 38);
+  padding: 7px;
+  border-radius: 10px;
+}
+.search button:hover {
+  background-color: rgb(255, 103, 38);
+  color: #fff;
+}
