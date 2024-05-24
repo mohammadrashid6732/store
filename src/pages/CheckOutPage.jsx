@@ -5,6 +5,7 @@ function CheckOutPage() {
   const clickHandler = (type, payload) => dispatch({ type, payload });
   return (
     <div>
+      
       <div>
         {state.selectedItems.map((product) => (
           <BasketCard key={product.id} data={product} clickHandler={clickHandler} />
